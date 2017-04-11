@@ -1,0 +1,117 @@
+body {
+    background: white;
+    font-family: 'Arial';
+    font-weight: 300;
+}
+
+header h1 {
+    padding: 18px 0 15px;
+    margin: 0;
+    font-size: 50px;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+
+.jumbotron {
+  display: flex;
+  background-image: url("notepad.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 700px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin-bottom: 30px;
+}
+
+
+div.note {
+    background: url("yellow.jpg");
+    display: block;
+    margin: 20px 0 0 0;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+div.note > h4 {
+    font-size: 20px;
+    padding: 15px 0 15px;
+    margin: 0 0 10px;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+}
+
+p.note-content {
+    text-align: left;
+    padding: 50px;
+    color: black;
+    font-size: 15px;
+}
+
+div.note > ul > li {
+    font-size: 15px;
+    padding: 25px;
+    border-bottom: 2px solid #e7f2f0;
+    text-align: left;
+}
+
+div.note > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 2px solid #e7f2f0;
+}
+
+div.note > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+div.note > ul > li.file {
+    border: 0;
+    align-items: center;
+}
+
+li.file > a {
+    color: white;
+    text-decoration: none;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+footer {
+  font-size: 12px;
+  padding: 75px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 50px;
+  height: 50px;
+}
